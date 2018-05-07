@@ -1,0 +1,5 @@
+void Awake()
+    {
+        Instantiate(Resources.Load("Notifications0", typeof(GameObject)));
+        this.enabled = false;
+    }   
